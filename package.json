@@ -1,0 +1,17 @@
+{
+  "name": "iss-server",
+  "version": "1.0.0",
+  "description": "iss의 실시간위치를 받아오는 서버",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node index.js"
+  },
+  "author": "jobkaeHenry",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0"
+  }
+}
